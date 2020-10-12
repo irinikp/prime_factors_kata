@@ -1,0 +1,18 @@
+{
+  "require": {
+    "php": "^7.3"
+  },
+  "require-dev": {
+    "mockery/mockery": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "MobProgrammingKata\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  }
+}
